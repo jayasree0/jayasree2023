@@ -12,7 +12,7 @@ pipeline{
     stages{
         stage('code') {
             steps{
-                git url: https://github.com/jayasree0/jayasree2023.git
+                git url: https://github.com/jayasree0/jayasree2023.git;
                     branch: 'master'
             }
         stage('package') {
